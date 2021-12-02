@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 /">
+  
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+
+    <title>CASHOUT</title>
+
+<style>
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 875px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	  
+	  ::placeholder{color:#8a96b1 !important;font-size:14px!important;}
+	  }
+</style>
+</head>
+<body>
+
+    <div class="container main">
+        
+		
+
+          
+			
+  
+        <div class="row jumbotron">
+		
+		  <div class="col-md-12 bg-dark kyc">
+		  <h3 class="text-center">CASHOUT</h3>
+		  </div>
+		  		  <div class="col-md-12 bg-light">
+				  <div class="main-head">
+		 <h5 class="text-center txt">Please complete your KYC to withdraw using UPI  <button class="btn-submit "id="com-kyc" >Complete KYC</button></h5>
+		  </div>
+		  </div>
+			
+			
+		    <div class="col-lg-6 col-md-6 col-sm-6 form-group ujj">
+
+<div class="custom_radio">
+  <input type="radio" id="featured-1" name="featured"><label class="up" for="featured-1">UPI</label>
+
+   <button class="btn-submit text-center" id="add-upi">+Add UPI</button>
+   
+  		<form>
+			<h5 class="mt-2" id="bank-mail">faizal0.9@Axisbank</h5>
+
+           
+			  <div class="display">             
+                <input type="text" class="form-control"  placeholder="Enter UPI ID" required>
+			
+             <button class="btn-submit text-center" id="adds">Add</button>
+		      </div>      
+ 
+
+  
+ </form>
+  <br>  <br> 
+
+<div class="b-account">  
+  <input type="radio" id="featured-2" name="featured1"><label class="bankk" for="featured-2">BANK ACCOUNT</label>
+  <button class="btn-submit text-center" id="add-bank">+Add Bank</button>
+  </div>   
+	 <div class="displays">
+  		<form>
+               	<h5 class="mt-2" id="bank-ac">A/c No.  &nbsp;  &nbsp;  &nbsp; 35200100046135 </h5>
+					<h5 class="mt-2" id="bank-ifsc">Ifsc Code  &nbsp;  &nbsp;  BARBOPRAJAI </h5>
+              <div class="ac-det">
+			  <div class="flx1">
+			   <label>A/C No</label> 
+                <input   type="text" placeholder="Enter Number" class="form-control" id="a-name">
+				</div> 
+		<br>
+             
+  <div class="flx2">
+			   <label>Confirm A/C No</label> 
+                <input   type="text" placeholder="Enter Number" class="form-control" id="confirm">
+				</div> 
+		<br>
+             
+  <div class="flx3">
+			   <label>IFSC Code</label> 
+                <input   type="text" placeholder="Enter Number" class="form-control" id="ifsc">
+				
+		</div>
+		</div>
+             			
+ <button class="btn-submit text-center" id="add">Add</button>
+
+  
+ </form>
+ </div>
+ 
+
+</div>
+</div>
+
+
+
+        
+        
+                <div class="col-lg-6 col-md-6 col-sm-6 right">
+				<p class="text-center">Withdrawable Balance</p>
+				<h5 class="text-center rup" >252500.36</h5>
+<h5 class="text-center text-dark amount" >Amount</h5>
+<center>
+			    <input   type="text" placeholder="35200100046135" class="form-control text-center">
+							<span class="value1">min 100</span>
+	<span class="value2">max 1000</span>	
+				</center>
+				
+			
+               <button class="btn btn-primary text-center">Withdraw</button>
+           
+			
+        </div> 
+<div class="col-md-12 last">		
+		<center><span class="kycs"><img src="images/danger.png" width="28"> &nbsp;KYC</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <span class="kycs"><img src="images/01-09.png" width="28"> &nbsp;Account</span> </center> 
+</div>
+     </div>
+	
+	</div>
+	       
+		
+  
+
+
+<script>
+$(document).ready(function(){
+  $("#add-upi").click(function(){
+    $(".display").css("display", "flex");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#add-upi").click(function(){
+    $(this).css("display", "none");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#add-bank").click(function(){
+    $(".displays").css("display", "flex");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#add-bank").click(function(){
+    $(this).css("display", "none");
+  });
+});
+</script>
+
+<script>
+$('.btn-submit').click(function () {
+    //Code goes here
+    return false;
+});
+</script>
+
+
+<script>
+$(document).ready(function(){
+  $("#adds").click(function(){
+    $("#bank-mail").css("display", "block");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#adds").click(function(){
+    $(".display").css("display", "none");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#add").click(function(){
+    $("#bank-ac").css("display", "block");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#add").click(function(){
+    $("#bank-ifsc").css("display", "block");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#add").click(function(){
+    $(".ac-det").css("display", "none");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#add").click(function(){
+    $(this).css("display", "none");
+  });
+});
+</script>
+
+
+</body>
+</html>
+
+	
+	
+	
+            
+          
+          
+
+          
+      
+          
+
+        
+            
+       
+		
+
+
+
+
