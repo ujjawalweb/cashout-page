@@ -821,7 +821,7 @@ h2{background: #122228;
 
 .display{display:flex;margin-left:30px;margin-top:11px;}
 
-.btn-submit{font-weight: 600;
+.btn-submit{font-weight: 400;
     font-size: 16px;
 	box-shadow: 0 2px 2px rgb(0 0 0 / 10%), 0 4px 4px rgb(0 0 0 / 10%), 0 6px 6px rgb(0 0 0 / 10%), 0 8px 8px rgb(0 0 0 / 10%);
  margin-left:11px;
@@ -1102,5 +1102,22 @@ color: #000!important;}
     left: 140px!important;
     top: -34px!important;
 }
+
+}
+
+
+@media only screen and (min-width: 390px) and (max-width: 409px){
+.btn-primary {
+    position: relative;
+    font-weight: 400;
+    font-size: 19px;
+    left: 176px;
+    border: none;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 10%), 0 4px 4px rgb(0 0 0 / 10%), 0 6px 6px rgb(0 0 0 / 10%), 0 8px 8px rgb(0 0 0 / 10%);
+    top: 65px;
+    background: linear-gradient(to bottom,#fad961,#d8af1a) !important;
+    padding: 10px 58px;
+    margin-left: -43px !important;
+color: #000!important;}
 
 }
