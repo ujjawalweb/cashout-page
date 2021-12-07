@@ -22,6 +22,8 @@
 	  
 	  ::placeholder{color:#8a96b1 !important;font-size:14px!important;}
 	  }
+	  
+	  #green-tick{display:none;}
 </style>
 </head>
 <body>
@@ -125,7 +127,7 @@
 			
         </div> 
 <div class="col-md-12 last">		
-		<center><span class="kycs"><img src="images/danger.png" width="28"> &nbsp;KYC</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <span class="kycs"><img src="images/01-09.png" width="28"> &nbsp;Account</span> </center> 
+		<center><span class="kycs"><img src="images/danger.png" width="28" id="danger"> <img src="images/01-09.png" id="green-tick"  width="28"> &nbsp;KYC</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <span class="kycs"><img src="images/01-09.png" width="28"> &nbsp;Account</span> </center> 
 </div>
      </div>
 	
@@ -136,6 +138,22 @@
 $(document).ready(function(){
   $("#com-kyc").click(function(){
     $(".bg-light").css("display", "none");
+  });
+});
+</script>
+
+		
+  <script>
+$(document).ready(function(){
+  $("#com-kyc").click(function(){
+    $("#green-tick").css("display", "inherit");
+  });
+});
+</script>
+  <script>
+$(document).ready(function(){
+  $("#com-kyc").click(function(){
+    $("#danger").css("display", "none");
   });
 });
 </script>
