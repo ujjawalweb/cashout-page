@@ -20,6 +20,12 @@ h6{position:absolute;color:#fff;
     top: -49px;
 }
 
+.jumbotron {
+       border-radius: 0 0 20px 20px!important;
+    padding: 34px 0px!important;
+    background: #fff !important;
+margin-top: 126px!important;}
+
 .last {
     position: relative!important;
     top: 17px!important;
@@ -180,7 +186,7 @@ top: 3px;}
 .bg-light {
     background: #dbdbdb!important;
     position: relative!important;
-    top: -56px!important;
+    top: -64px!important;
     height: 40px;}
 
 .upload-options label::after {
@@ -244,10 +250,11 @@ h6 {
 	
 	.left{    position:relative!important;left: -100px !important;}
 
-  .jumbotron {height:auto;
-    border-radius: 20px;
-    padding: 104px 0;
-    }
+  
+	
+	
+	
+	
 	.main{width:100%!important;max-width:900px !important; margin-top: -51px!important;
 }
 	
@@ -457,7 +464,7 @@ h4{font-size:19px;}
     left: calc(44% - 2.25rem)!important;
     z-index: 0;}
 
-.main{    margin-top: -57px;}
+.main{    margin-top: -6px;}
 
 label{font-size:14px!important;}
 
@@ -606,7 +613,7 @@ body{background:grey;}
 	
 	
 .jumbotron {    border-radius: 20px;
-    padding: 104px 0px;background:#fff !important;margin-top:50px!important;
+    padding: 104px 0px;background:#fff !important;margin-top:50px;
 }
 
 
