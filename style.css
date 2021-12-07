@@ -230,7 +230,7 @@ h6 {
     font-weight: 600;    padding: 3px 37px!important;
     font-size: 20px!important;    top: 14px!important;
  
-    left: 96px !important;}
+  }
 	
   	
 	.form-control {
@@ -335,7 +335,7 @@ h6 {
     padding: 3px 37px!important;
     font-size: 22px;
     top: 14px!important;
-  left: 127px !important;}
+}
   
   #add-bank {
     width: 120px;
@@ -389,7 +389,7 @@ left: -21px;}
     padding: 3px 37px!important;
     font-size: 22px;
     top: 14px!important;
-  left: 132px !important;}
+}
   
   #add-bank {
     width: 120px;
@@ -439,7 +439,7 @@ left: -21px;}
  37px!important;
     font-size: 22px;
     top: 14px!important;
-	  left: 116px !important;}
+	}
 
   }
 
@@ -454,7 +454,7 @@ left: -21px;}
     padding: 3px 37px!important;
     font-size: 22px;
     top: 14px!important;
-    left: 77px !important;
+
 }
 
 #add-bank {
@@ -481,7 +481,7 @@ top: -33px!important;}
  37px!important;
     font-size: 22px;
     top: 14px!important;
-  left: 103px !important;}
+}
   
   #add-bank {
     width: 120px;
@@ -698,8 +698,8 @@ label {
 	
 	.form-control{border: 1px solid grey!important;}
 	.btn-primary{    position: relative;font-weight:400;font-size:23px;
-    left: 176px;border:none;box-shadow: 0 2px 2px rgb(0 0 0 / 10%), 0 4px 4px rgb(0 0 0 / 10%), 0 6px 6px rgb(0 0 0 / 10%), 0 8px 8px rgb(0 0 0 / 10%);
-    top: 65px;background: linear-gradient(to bottom,#fad961,#d8af1a) !important;    padding: 10px 58px;margin-left:-10px !important;color:#000!important;
+   border:none;box-shadow: 0 2px 2px rgb(0 0 0 / 10%), 0 4px 4px rgb(0 0 0 / 10%), 0 6px 6px rgb(0 0 0 / 10%), 0 8px 8px rgb(0 0 0 / 10%);
+    top: 38px;background: linear-gradient(to bottom,#fad961,#d8af1a) !important;    padding: 10px 58px;color:#000!important;
 	
 	
 }
@@ -1145,7 +1145,7 @@ font-size: 12px;}
     top: 65px;
     background: linear-gradient(to bottom,#fad961,#d8af1a) !important;
     padding: 10px 58px;
-    margin-left: -56px !important;
+    margin-left: -250px !important;
 color: #000!important;}
 
 .rup {
@@ -1180,7 +1180,7 @@ font-size: 16px;}
     padding: 10px 58px
 px
 ;
-    margin-left: -33px !important;
+    margin-left: -255px !important;
 color: #000!important;}
 
 }
