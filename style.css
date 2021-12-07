@@ -1216,3 +1216,15 @@ color: #000!important;}
 color: #000!important;}
 
 }
+
+
+@media only screen and (min-device-width: 730px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape){
+#adds {
+    width: 119px!important;
+    position: relative!important;
+    left: -6px!important;
+top: -5px!important;}
+
+}
+
+
