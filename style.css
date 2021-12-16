@@ -6,6 +6,11 @@ input:focus, textarea:focus, select:focus{
         outline: none!important;box-shadow:none !important;
     }
 	
+	.bkash{    position: relative;
+    top: -15px;
+}
+	
+	
 h6{position:absolute;color:#fff;
     font-size: 24px;
     font-weight: 400;
@@ -234,7 +239,7 @@ h6 {
 	
   	
 	.form-control {
-    width:55%!important;
+    width:76%!important;
 }
 
 .js--image-preview {
@@ -1075,6 +1080,30 @@ white-space: nowrap;}
      left: -18px;
     top: -8px;}
 	
+	
+	.no-add {
+    width: 94px!important;
+    height: 30px!important;
+    white-space: nowrap;
+    padding: 0;
+    font-size: 12px;
+    position: relative!important;
+ left: 18px!important;
+    top: -21px!important;
+}
+	#add-pay {
+    width: 94px!important;
+    height: 30px!important;
+    white-space: nowrap;
+    font-size: 13px!important;
+    position: relative!important;
+    left: 29px!important;
+    top: -20px!important;
+}
+	
+	
+	
+	
 	.flx1{margin-left:3px;}
 	.flx2{margin-left:3px;}
 	.flx3{margin-left:3px;}
@@ -1226,5 +1255,4 @@ color: #000!important;}
 top: -5px!important;}
 
 }
-
 
