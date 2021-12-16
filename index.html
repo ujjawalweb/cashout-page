@@ -18,12 +18,119 @@
   and (min-device-width: 375px) 
   and (max-device-width: 875px) 
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
+  and (orientation: landscape) {     .paytm{margin-top: -44px;}
+  #muid{
+    width: 61%!important;}
+
+	  #muip{
+    width: 61%!important;}
+	
+   .b-kash{margin-top: -34px;}
+   
+ .pay-tm {
+    margin-top: 20px;
+    position: relative;
+    top: -21px;}
 	  
 	  ::placeholder{color:#8a96b1 !important;font-size:14px!important;}
 	  }
 	  
+	  
+	  
+	  
 	  #green-tick{display:none;}
+	  
+	  #add-bkash {
+    width: 120px;
+    height: 34px;
+    white-space: nowrap;
+    font-size: 13px!important;
+    position: relative!important;
+    left: 147px!important;
+    top: -65px;}
+	
+	#add-pay{width: 120px;
+    height: 34px;
+    white-space: nowrap;
+    font-size: 13px!important;
+    position: relative!important;
+    left: 41px;
+    top: -7px;
+}
+	#bik-num{display:none;margin-left: 25px!important;
+    color: #6f7272!important;
+    font-size: 14px!important;    position: relative;
+    top: -15px;
+}
+
+#adds-2{       width: 120px!important;
+    position: relative!important;
+    left: 20px!important;
+    top: -5px!important;
+
+    padding: 6px 21px;
+
+	
+	}
+	
+	#adds-4{    width: 99px!important;
+    position: relative!important;
+    left: 160px!important;
+    top: -67px!important;
+    height: 33px;}
+	
+	#pay-num{display:none;    margin-left: 25px!important;
+    color: #6f7272!important;
+    font-size: 14px!important;
+    position: relative;
+    top: -15px;}
+	
+	
+	.display-4{display:none;}
+	.display-3{display:none;margin-top: -19px;}
+	
+	
+	@media only screen and (min-device-width: 700px) and (max-device-width: 873px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape){
+.b-kash {
+    margin-top: -10px!important;
+}
+.paytm {
+    margin-top: -2px;
+}
+
+#add-bkash {
+    width: 120px;
+    height: 34px;
+    white-space: nowrap;
+    font-size: 13px!important;
+    position: relative!important;
+    left: 28px!important;
+    top: -7px;}
+
+
+#muid {
+    width: 54%!important;
+}
+#muip {    margin-top: -14px;
+    width: 64%!important;
+    position: relative;
+    left: 2px}
+
+}
+
+#muid {    margin-top: -14px;
+    width: 54%!important;
+    position: relative;
+    left: 2px}
+	
+	.pay-tm {
+    margin-top: 20px;
+    position: relative;
+    top: -21px;
+    margin-left: 8px;
+}
+
+}
 </style>
 </head>
 <body>
@@ -103,7 +210,49 @@
  </form>
  </div>
  
+<div class="b-kash">  
+  <input type="radio" id="featured-3" name="featured3"><label class="bankk" for="featured-3"><img src="images/bkash.png" class="bkash" width="70"></label>
+  <button class="btn-submit text-center" id="add-bkash">+Add No.</button>
+     
+  		<form>
+			<h5 class="" id="bik-num">9834009867</h5>
 
+           
+			  <div class="display-3">             
+                <input type="text" class="form-control muip"  placeholder=" Mobile no" required>
+			
+             <button class="btn-submit text-center" id="adds-2">Add</button>
+		      </div>      
+ 
+
+  
+ </form>
+  </div> 
+  
+  
+   
+<div class="paytm">  
+  <input type="radio" id="featured-4" name="featured4"><label class="bankk" for="featured-4"><img src="images/paytm.png" class="pay-tm" width="50"></label>
+  <button class="btn-submit text-center" id="add-pay">+Add No.</button>
+     
+  		<form>
+			<h5 class="" id="pay-num">9834009867</h5>
+
+           
+			  <div class="display-4">             
+                <input type="text" class="form-control upid"  id="muid" placeholder="Mobile no" required>
+			
+             <button class="btn-submit text-center" id="adds-4">Add</button>
+		      </div>      
+ 
+
+  
+ </form>
+  </div> 
+  
+  
+  
+  
 </div>
 </div>
 
@@ -187,6 +336,15 @@ $(document).ready(function(){
 
 <script>
 $(document).ready(function(){
+  $("#add-bkash").click(function(){
+    $(".display-3").css("display", "flex");
+  });
+});
+</script>
+
+
+<script>
+$(document).ready(function(){
   $("#add-bank").click(function(){
     $(this).css("display", "none");
   });
@@ -248,8 +406,93 @@ $(document).ready(function(){
   });
 });
 </script>
+<script>
+$(document).ready(function(){
+  $("#add-bank").click(function(){
+    $(".b-kash,.paytm").css("display", "none");
+  });
+});
+</script>
 
+<script>
+$(document).ready(function(){
+  $("#add").click(function(){
+    $(".b-kash,.paytm").css({"display": "block", "margin-top": "-10px"});
+  });
+});
+</script>
 
+<script>
+$(document).ready(function(){
+  $("#add-bkash").click(function(){
+    $(".paytm").css("display", "none");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#adds-2").click(function(){
+    $("#bik-num").css("display", "block");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#adds-2").click(function(){
+    $(".display-3,#add-bkash").css("display", "none");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#adds-2").click(function(){
+    $(".paytm").css({"display": "block", "margin-top": "-5px"});
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#add-pay").click(function(){
+    $(".display-4").css("display", "block");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#adds-4").click(function(){
+    $("#pay-num").css("display", "block");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#adds-4").click(function(){
+    $(".display-4,#add-pay").css("display", "none");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#add-bkash").click(function(){
+    $(this).css("display", "none");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#add-pay").click(function(){
+    $(this).css("display", "none");
+  });
+});
+</script>
 </body>
 </html>
 
