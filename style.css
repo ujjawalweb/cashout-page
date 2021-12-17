@@ -1,7 +1,5 @@
 .main{overflow-x:hidden!important;    height: auto;
     margin-top: -33px;border-radius:0 0 20px 20px;}
-
-
 body,html{overflow-x:hidden!important;}
 
 input:focus, textarea:focus, select:focus{
@@ -11,6 +9,30 @@ input:focus, textarea:focus, select:focus{
 	.bkash{    position: relative;
     top: -15px;
 }
+	
+	@media only screen and (min-device-width: 640px) and (max-device-width: 648px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape){
+#add-upi {
+    width: 120px;
+    height: 34px;
+    white-space: nowrap;
+    font-size: 13px!important;
+    position: relative!important;
+    left: 62px!important;
+}
+
+
+
+#add-bkash {
+    width: 120px;
+    height: 34px;
+    white-space: nowrap;
+    font-size: 13px!important;
+    position: relative!important;
+    left: 150px!important;
+top: -76px!important;}
+
+}	
+	
 	
 	
 h6{position:absolute;color:#fff;
@@ -160,7 +182,8 @@ top: -1px;}
 }
 
 
-.ujj{    position: relative!important;
+.ujj{    position: relative!important;    height: 136px!important;
+    overflow-y: scroll!important;
     left: -15px!important;top: -45px!important;
 }
 .up{    font-size: 14px!important;}
@@ -1013,6 +1036,10 @@ height:44px;
 
 @media only screen and (max-width: 600px) {
 	
+	.form-control {
+    width: 48%!important;
+}
+	
 	#bank-mail {
     display: none;
     margin-left: 5px;
@@ -1258,3 +1285,151 @@ top: -5px!important;}
 
 }
 
+
+
+
+	@media only screen and (min-device-width: 686px) and (max-device-width: 699px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape){
+#adds {
+    width: 120px!important;
+    position: relative!important;
+    left: -5px!important;
+    top: -5px!important;
+}
+
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 875px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {     .paytm{margin-top: -6px;}
+  #muid{
+    width: 61%!important;}
+	
+	.upid{position: relative;
+    left: -24px;}
+	
+
+
+	  .muip{
+    width: 54%!important;}
+	
+   .b-kash{margin-top: -16px;}
+   
+ .pay-tm {
+    margin-top: 20px;
+    position: relative;
+    top: -21px;}
+	  
+	  ::placeholder{color:#8a96b1 !important;font-size:14px!important;}
+	  }
+	  
+	  
+	  
+	  
+	  #green-tick{display:none;}
+	  
+	  #add-bkash {
+    width: 120px;
+    height: 34px;
+    white-space: nowrap;
+    font-size: 13px!important;
+    position: relative;
+      left: 27px;
+    top: -9px;
+}
+	
+	#add-pay{width: 120px;
+    height: 34px;
+    white-space: nowrap;
+    font-size: 13px!important;
+    position: relative!important;
+    left: 41px;
+    top: -7px;
+}
+	#bik-num{display:none;margin-left: 25px!important;
+    color: #6f7272!important;
+    font-size: 14px!important;    position: relative;
+    top: -15px;    margin-bottom: 22px;
+}
+
+#adds-2{       width: 99px!important;
+    position: relative!important;
+    left: 5px!important;
+    top: -5px!important;
+
+    padding: 6px 21px;
+
+	
+	}
+	
+	#adds-4{    width: 99px!important;
+    position: relative!important;
+    left: 160px!important;
+    top: -67px!important;
+    height: 33px;}
+	
+	#pay-num{display:none;    margin-left: 25px!important;
+    color: #6f7272!important;
+    font-size: 14px!important;
+    position: relative;
+    top: -15px;}
+	
+	
+	.display-4{display:none;}
+	.display-3{display:none;margin-top: -19px;}
+	
+	
+	@media only screen and (min-device-width: 700px) and (max-device-width: 721px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape){
+.b-kash {
+    margin-top: -43px;
+}
+
+
+}
+
+
+@media only screen and (min-device-width: 721px) and (max-device-width: 800px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape){
+.b-kash {
+    margin-bottom: -16px!important;
+}
+
+.paytm {
+    margin-top: 11px;
+}
+
+#add-bkash {
+    width: 120px;
+    height: 34px;
+    white-space: nowrap;
+    font-size: 13px!important;
+    position: relative!important;
+    left: 28px!important;
+    top: -7px;}
+
+
+#muid {
+    width: 54%!important;
+}
+#muip {    margin-top: -14px;
+    width: 64%!important;
+    position: relative;
+    left: 2px}
+
+}
+
+#muid {    margin-top: -14px;
+    width: 54%!important;
+    position: relative;
+    left: 2px}
+	
+	.pay-tm {
+    margin-top: 20px;
+    position: relative;
+    top: -21px;
+    margin-left: 8px;
+}
+	}
+	
+	
+	
